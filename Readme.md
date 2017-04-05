@@ -1,3 +1,12 @@
+# The Gulp build tools:
+* Sass w/ Autoprefixer
+* Convert JSX to JavaScript
+* Concatenate JavaScript files
+* BrowserSync with auto-refresh of CSS changes
+* ESLint to identify JSX and JavaScript errors/problems
+* Sourcemaps to help debug JSX, JavaScript and Sass
+* Error reporting in console without pipe breaking
+
 # Learning Resources:
 
 * [React official documentation -  Installation](https://facebook.github.io/react/docs/installation.html)

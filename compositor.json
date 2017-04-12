@@ -46,10 +46,6 @@
         {
           "href": "https://github.com/colorful-tones/my-first-react-app",
           "text": "GitHub"
-        },
-        {
-          "href": "https://npmjs.com/package/my-first-react-app",
-          "text": "npm"
         }
       ]
     },

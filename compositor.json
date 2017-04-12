@@ -1,0 +1,95 @@
+{
+  "name": "colorful-tones/my-first-react-app",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "My First React App",
+  "branch": "master",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/colorful-tones/my-first-react-app",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/my-first-react-app",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "my-first-react-app",
+      "subhead": "My first React app",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "my-first-react-app: My first React app",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "colorful-tones",
+          "repo": "my-first-react-app"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>The Gulp build tools:</h1>\n<ul>\n<li>Sass w/ Autoprefixer</li>\n<li>Convert JSX to JavaScript</li>\n<li>Concatenate JavaScript files</li>\n<li>BrowserSync with auto-refresh of CSS changes</li>\n<li>ESLint to identify JSX and JavaScript errors/problems</li>\n<li>Sourcemaps to help debug JSX, JavaScript and Sass</li>\n<li>Error reporting in console without pipe breaking</li>\n</ul>\n<h1>Learning Resources:</h1>\n<ul>\n<li><a href=\"https://facebook.github.io/react/docs/installation.html\">React official documentation -  Installation</a></li>\n<li><a href=\"http://babeljs.io/docs/setup/#installation\">Babel - installation</a></li>\n<li><a href=\"https://medium.freecodecamp.com/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76\">&quot;Yes, React is taking over front-end development. The question is why.&quot;</a></li>\n<li><a href=\"https://jonsuh.com/blog/integrating-react-with-gulp/\">&quot;Integrating React with gulp&quot;</a></li>\n<li><a href=\"https://github.com/wbkd/react-starterkit\">React Starter Kit</a></li>\n</ul>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/colorful-tones/my-first-react-app",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/colorful-tones",
+          "text": "colorful-tones"
+        }
+      ]
+    }
+  ]
+}
